@@ -1,0 +1,17 @@
+# Images and labels direcotry should be relative to train.py
+TRAIN_DIR_IMAGES: '/kaggle/input/testzip/train'
+TRAIN_DIR_LABELS: '/kaggle/input/testzip/train'
+VALID_DIR_IMAGES: '/kaggle/input/testzip/test'
+VALID_DIR_LABELS: '/kaggle/input/testzip/test'
+
+# Class names.
+CLASSES: [
+    '__background__',
+    ,'mobile'
+]
+
+# Number of classes (object classes + 1 for background class in Faster RCNN).
+NC: 2
+
+# Whether to save the predictions of the validation set while training.
+SAVE_VALID_PREDICTION_IMAGES: True
