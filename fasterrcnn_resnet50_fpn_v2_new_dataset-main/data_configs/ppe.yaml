@@ -7,7 +7,7 @@ VALID_DIR_LABELS: '/kaggle/input/testzip/test'
 # Class names.
 CLASSES: [
     '__background__',
-    ,'mobile'
+    'mobile'
 ]
 
 # Number of classes (object classes + 1 for background class in Faster RCNN).
